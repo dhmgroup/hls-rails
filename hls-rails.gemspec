@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "hls/version"
+require "hls/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "hls-rails"
-  spec.version       = Hls::VERSION
+  spec.version       = Hls::Rails::VERSION
   spec.authors       = ["Douglas Harrington Muhone"]
   spec.email         = ["theeomm@outlook.com"]
 
